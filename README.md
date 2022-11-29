@@ -1,2 +1,2 @@
-#aoc
-My Solution to the Advent of Code 2022
+# aoc
+My Solutions for Advent of Code
