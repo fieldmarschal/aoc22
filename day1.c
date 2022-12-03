@@ -15,7 +15,7 @@ void day1(void){
     char* temp2[10];
     int inputi[LEN], outputi[LEN];
     int i, o = 0, temp = 0;
-    inputf = fopen("C:\\Users\\Julius\\ClionProjects\\aoc22\\day1input.txt","r");
+    inputf = fopen("day1input.txt","r");
     if(inputf != NULL){
         for(i=0;i<LEN;i++){
             fgets(temp1,6,inputf);
