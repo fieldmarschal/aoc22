@@ -7,10 +7,8 @@
 // Created by Julius on 03.12.2022.
 //
 
-FILE *inputf;
 char inputc1[LEN1][LEN2];
 char inputc2[LEN1][LEN2];
-char temp1[LEN2];
 int i = 0, sum = 0, len,o;
 char *ret;
 
@@ -45,7 +43,9 @@ void part2(void){
 }
 
 void day3(void){
-    inputf = fopen("C:\\Users\\Julius\\ClionProjects\\aoc22\\day3input.txt", "r");
+    char temp1[LEN2];
+    FILE *inputf;
+    inputf = fopen("day3input.txt", "r");
     while(fgets(temp1, LEN2, inputf)!= NULL){
         strcpy(inputc1[i], temp1);
         i++;
