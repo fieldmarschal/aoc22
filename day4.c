@@ -42,7 +42,7 @@ void day4(void){
     FILE *inputf;
     int i = 0;
 
-    inputf = fopen("C:\\Users\\Julius\\ClionProjects\\aoc22\\day4input.txt", "r");
+    inputf = fopen("day4input.txt", "r");
 
     while(i<LEN){
        fscanf(inputf, "%d-%d,%d-%d", &input[i].begin1, &input[i].end1, &input[i].begin2, &input[i].end2);
