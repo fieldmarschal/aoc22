@@ -49,5 +49,5 @@ void day1(void) {
     } else {
         fprintf(stderr, "Input nicht gelesen!");
     }
-
+    fclose(inputf);
 }

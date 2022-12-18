@@ -95,7 +95,7 @@ void day6(void) {
     FILE *inputf;
     char input[LEN];
 
-    inputf = fopen("C:\\Users\\Julius\\ClionProjects\\aoc22\\day6input.txt", "r");
+    inputf = fopen("day6input.txt", "r");
     fgets(input, LEN, inputf);
     part1_6(input);
     part2_6(input);

@@ -63,4 +63,5 @@ void day2(void){
     }else{
         fprintf(stderr, "Fehler");
     }
+    fclose(inputf);
 }

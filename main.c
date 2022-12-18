@@ -1,9 +1,9 @@
 //
 // Created by Julius on 29.11.2022.
 //
-void day1(void);
+void day5(void);
 
 int main(void) {
-    day1();
+    day5();
     return 0;
 }

@@ -51,4 +51,5 @@ void day4(void){
 
     part2_4();
     printf("%d", sum);
+    fclose(inputf);
 }
